@@ -1,0 +1,13 @@
+#!/bin/bash
+#########################################################################
+# XENTA REPO SCRIPT FOR MAKE REPOSITORY FROM .DEB FILE                  #
+# AUTHOR    : XENTA OS                                                  #
+# LICENSE   : GNU GPL 3.0                                               #
+# WEB       : http://www.xentaos.org/                                   #
+#########################################################################
+
+# Menandatangani Paket .deb sebelum upload ke folder repo *WAJIB
+cd $HOME/upload
+dpkg-sig -k 959CDDD1 --sign bundler $HOME/upload/*.deb
+
+# Silahkan Ganti UUID publickey 959CDDD1 sesuai Public key anda

@@ -1,0 +1,43 @@
+#!/bin/bash
+#########################################################################
+# XENTA REPO SCRIPT FOR MAKE REPOSITORY FROM .DEB FILE                  #
+# AUTHOR    : XENTA OS                                                  #
+# LICENSE   : GNU GPL 3.0                                               #
+# WEB       : http://www.xentaos.org/                                   #
+#########################################################################
+
+# Membuat Directory Repository
+mkdir $HOME/upload
+mkdir -p $HOME/repo/conf
+cd $HOME/repo/conf
+nano distributions
+# Silahkan Isi dengan Sebagai Berikut
+Origin: 
+Label: 
+Suite: 
+Codename: 
+Version: 
+Architectures: 
+Components: 
+Description: 
+SignWith: 
+
+# Contoh
+Origin: xentaos
+Label: xentaos
+Suite: arok
+Codename: arok
+Version: 1.3
+Architectures: i386 amd64
+Components: main upstream resticted import import-resticted queen
+Description: Xenta OS 1.3 LTS Repository
+SignWith: 959CDDD1
+
+# Membuat Directory file Untuk Uploads paket2 .deb ke repo
+mkdir upload
+
+# Mengextract Public key
+cd $HOME 
+gpg --output public-key.gpg --armor --export 959CDDD1
+                            # Silahkan Ganti 959CDDD1 sesuai ID publickey anda
+cp public-key.gpg $HOME/repo

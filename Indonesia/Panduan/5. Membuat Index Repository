@@ -1,0 +1,14 @@
+#!/bin/bash
+#########################################################################
+# XENTA REPO SCRIPT FOR MAKE REPOSITORY FROM .DEB FILE                  #
+# AUTHOR    : XENTA OS                                                  #
+# LICENSE   : GNU GPL 3.0                                               #
+# WEB       : http://www.xentaos.org/                                   #
+#########################################################################
+
+# Membuat Index Repository
+cd $HOME/upload
+reprepro -b $HOME/repo/ includedeb arok *.deb
+
+# Silahkan ganti arok dengan kode nama dari repository anda
+# Selamat Index Repository siap upload ke sourceforge atau website anda sendiri

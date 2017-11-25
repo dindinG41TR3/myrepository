@@ -1,0 +1,16 @@
+#!/bin/bash
+#########################################################################
+# XENTA REPO SCRIPT FOR MAKE REPOSITORY FROM .DEB FILE                  #
+# AUTHOR    : XENTA OS                                                  #
+# LICENSE   : GNU GPL 3.0                                               #
+# WEB       : http://www.xentaos.org/                                   #
+#########################################################################
+
+# Menambahkan Public Key
+cd $HOME/Downloads
+wget http://downloads.sourceforge.net/project/xenta-os/repo/public-key.gpg
+                             # Silahkan Ganti xenta-os sesuai nama project anda di sourceforge
+gpg --import public-key.gpg
+
+# Update Repository
+sudo apt-get update
