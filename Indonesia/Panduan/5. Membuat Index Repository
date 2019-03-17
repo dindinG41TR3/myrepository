@@ -10,5 +10,8 @@
 cd $HOME/upload
 reprepro -b $HOME/repo/ includedeb arok *.deb
 
+# Optional jika mengelola 2 distribusi
+reprepro -b $HOME/repo/ includedeb batik *.deb
+
 # Silahkan ganti arok dengan kode nama dari repository anda
 # Selamat Index Repository siap upload ke sourceforge atau website anda sendiri
