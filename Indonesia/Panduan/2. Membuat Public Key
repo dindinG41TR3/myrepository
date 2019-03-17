@@ -98,14 +98,14 @@ gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
 gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
 pub   1024R/959CDDD1 2017-07-27
       Key fingerprint = 707E C01E AC3C 2F7F 8723  30CB 4EDB 0BF7 959C DDD1
-uid                  Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+uid                  Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
 sub   1024R/B93D20D1 2017-07-27
 
 dindin@G41TR3 ~ $ gpg --list-key
 /home/dindin/.gnupg/pubring.gpg
 -------------------------------
 pub   1024R/959CDDD1 2017-07-27
-uid                  Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+uid                  Dindin Hernawan (Xenta OS) <dindin_hernawan@yahoo.com>
 sub   1024R/B93D20D1 2017-07-27
 
 dindin@G41TR3 ~ $ gpg --keyserver keyserver.ubuntu.com --send-keys 959CDDD1
