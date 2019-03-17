@@ -33,6 +33,27 @@ Components: main upstream resticted import import-resticted queen
 Description: Xenta OS 1.3 LTS Repository
 SignWith: 959CDDD1
 
+# Optional Jika ada 2 Kodenama yang dikelola penulisanya seperti ini
+Origin: xentaos
+Label: xentaos
+Suite: arok
+Codename: arok
+Version: 1.3
+Architectures: i386 amd64
+Components: main upstream resticted import import-resticted queen
+Description: Xenta OS 1.3 LTS Repository
+SignWith: 959CDDD1
+
+Origin: xentaos
+Label: xentaos
+Suite: batik
+Codename: batik
+Version: 2.0
+Architectures: i386 amd64
+Components: main upstream resticted import import-resticted queen
+Description: Xenta OS 2.0 LTS Repository
+SignWith: 959CDDD1
+
 # Membuat Directory file Untuk Uploads paket2 .deb ke repo
 mkdir upload
 
