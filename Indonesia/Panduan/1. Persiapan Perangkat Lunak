@@ -8,4 +8,4 @@
 
 # Periapan Awal Software yang di Butuhkan
 # Buka Terminal dan Ketik perintah berikut :
-sudo apt-get install reprepro dpkg-sig -y
+sudo apt-get install reprepro dpkg-sig
