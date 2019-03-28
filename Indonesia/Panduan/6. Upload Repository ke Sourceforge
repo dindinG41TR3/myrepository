@@ -24,7 +24,7 @@ sudo apt-get install filezilla
       # silahkan isi user dan password sesuai username di sourceforge anda.
  
  ####### TAB ADVANCED
- * Default Remote Directory : /home/rfs/project/xenta-os
+ * Default Remote Directory : /home/frs/project/xenta-os
    # silahkan ganti xenta-os sesuai project anda 
    # xenta-os adalah folder paling awal dari directory di sourceforge
  
