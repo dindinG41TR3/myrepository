@@ -1,5 +1,5 @@
 # panduan-repository
-Sebuah Panduan Membuat Distro GNU/Linux menggunakan Teknik Debootstrap.
+Sebuah Panduan Membuat Repository untuk Distro GNU/Linux menggunakan Teknik reprepro.
 
 ![GitHub issues](https://img.shields.io/github/issues/dindinG41TR3/myrepository.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/dindinG41TR3/myrepository.svg)
